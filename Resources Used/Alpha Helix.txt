@@ -1,0 +1,46 @@
+Amino acid scale: Conformational parameter for alpha helix (computed from 29 proteins).
+Author(s): Chou P.Y., Fasman G.D.
+Reference: Adv. Enzym. 47:45-148(1978).
+
+Amino acid scale values:
+
+
+Ala:  1.420  
+
+Arg:  0.980  
+
+Asn:  0.670  
+
+Asp:  1.010  
+
+Cys:  0.700  
+
+Gln:  1.110  
+
+Glu:  1.510  
+
+Gly:  0.570  
+
+His:  1.000  
+
+Ile:  1.080  
+
+Leu:  1.210  
+
+Lys:  1.160  
+
+Met:  1.450  
+
+Phe:  1.130  
+
+Pro:  0.570  
+
+Ser:  0.770  
+
+Thr:  0.830  
+
+Trp:  1.080  
+
+Tyr:  0.690  
+
+Val:  1.060  

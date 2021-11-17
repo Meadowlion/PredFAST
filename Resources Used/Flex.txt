@@ -1,0 +1,52 @@
+ProtScale Tool
+Amino acid scale: Average flexibility index.
+Author(s): Bhaskaran R., Ponnuswamy P.K.
+Reference: Int. J. Pept. Protein. Res. 32:242-255(1988).
+
+Amino acid scale values:
+
+
+A:  0.360  
+
+R:  0.530  
+
+N:  0.460  
+
+D:  0.510  
+
+C:  0.350  
+
+Q:  0.490  
+
+E:  0.500  
+
+G:  0.540  
+
+H:  0.320  
+
+I:  0.460  
+
+L:  0.370  
+
+K:  0.470  
+
+M:  0.300  
+
+F:  0.310  
+
+P:  0.510  
+
+S:  0.510  
+
+T:  0.440  
+
+W:  0.310  
+
+Y:  0.420  
+
+V:  0.390  
+
+
+
+
+SIB Swiss Institute of Bioinformatics | Discla

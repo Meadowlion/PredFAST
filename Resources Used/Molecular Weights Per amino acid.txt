@@ -1,0 +1,28 @@
+Amino Acid Abbreviations and Molecular Weights.
+Three-Letter One-Letter Molecular
+Amino Acid Abbreviation Symbol Weight
+
+Alanine	         Ala	 A	 89Da
+Arginine	 Arg	 R	 174Da
+Asparagine	 Asn	 N	 132Da
+Aspartic acid	 Asp	 D	 133Da
+Asparagine or
+aspartic acid	 Asx	 B	 133Da
+Cysteine	 Cys	 C	 121Da
+Glutamine	 Gln	 Q	 146Da
+Glutamic acid	 Glu	 E	 147Da
+Glutamine or
+glutamic acid	 Glx	 Z	 147Da
+Glycine	         Gly	 G	 75Da
+Histidine	 His	 H	 155Da
+Isoleucine	 Ile	 I	 131Da
+Leucine	         Leu	 L	 131Da
+Lysine	         Lys	 K	 146Da
+Methionine	 Met	 M	 149Da
+Phenylalanine	 Phe	 F	 165Da
+Proline	         Pro	 P	 115Da
+Serine	         Ser	 S	 105Da
+Threonine	 Thr	 T	 119Da
+Tryptophan	 Trp	 W	 204Da
+Tyrosine	 Tyr	 Y	 181Da
+Valine	         Val	 V	 117Da
