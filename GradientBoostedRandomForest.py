@@ -18,7 +18,6 @@ import pickle
 from sklearn import model_selection
 import os
 
-os.chdir(r"Research Simple\Research")
 n_jobs=10
 s=0
 z=0
