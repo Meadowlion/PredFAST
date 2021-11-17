@@ -90,7 +90,7 @@ except OSError as e:
 	if e.errno != errno.EEXIST:
 		raise
 try:
-	os.system("mv 'Model Output.py' '" + hdir + "/Documents/PredFast/Model Output.py'")
+	os.system("mv 'RunAgainstModel.py' '" + hdir + "/Documents/PredFast/RunAgainstModel.py'")
 except OSError as e:
 	if e.errno != errno.EEXIST:
 		raise
@@ -100,12 +100,7 @@ except OSError as e:
 	if e.errno != errno.EEXIST:
 		raise
 try:
-	os.system("mv 'GradientBoostedRandomForest.py' '" + hdir + "/Documents/PredFast/Gradient Boosted Random Forest.py'")
-except OSError as e:
-	if e.errno != errno.EEXIST:
-		raise
-try:
-	os.system("mv 'Database Builder For Unlabeled Dataset.py' '" + hdir + "/Documents/PredFast/Database Builder For Unlabeled Dataset.py'")
+	os.system("mv 'GradientBoostedRandomForest.py' '" + hdir + "/Documents/PredFast/GradientBoostedRandomForest.py'")
 except OSError as e:
 	if e.errno != errno.EEXIST:
 		raise
@@ -115,7 +110,7 @@ except OSError as e:
 	if e.errno != errno.EEXIST:
 		raise
 try:
-	os.system("mv 'DatabaseBuilder.py' '" + hdir + "/Documents/PredFast/Database Builder.py'")
+	os.system("mv 'DatabaseBuilder.py' '" + hdir + "/Documents/PredFast/DatabaseBuilder.py'")
 except OSError as e:
 	if e.errno != errno.EEXIST:
 		raise
