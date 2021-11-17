@@ -25,7 +25,7 @@ csv1=input("What is the name of the Training Databse?: ")
 labels=list(input("What are the classes of the database? (no commas) "))
 print(labels)
 runout=csv1 
-csv1="Databases\\" + csv1
+csv1="Databases/" + csv1
 print("The machine will now begin!")
 while z<100:
     x=0
@@ -60,7 +60,7 @@ while z<100:
         accuracy=str(metrics.accuracy_score(y_test, y_pred))
         print("Accuracy:",metrics.accuracy_score(y_test, y_pred))
         acc+=metrics.accuracy_score(y_test, y_pred)
-        filename = str("Machine Learning\\Model\\" + runout + accuracy + ".dat" ) 
+        filename = str("Machine Learning/Model/" + runout + accuracy + ".dat" ) 
         out=open(filename,"x")
         out.close()
         pickle.dump(best_clf, open(filename, 'ab'))
@@ -79,7 +79,7 @@ while z<100:
     #makes a writable string of the above
     stravg=str(avg)
     #allows append instead of rewriting
-    txt1 = open("Machine Learning\\Run Outputs\\" + runout ,"a")
+    txt1 = open("Machine Learning/Run Outputs/" + runout ,"a")
     txt1.write("\n"+stravg+","+strac+"\n")
     txt1.close
    
@@ -91,7 +91,7 @@ while z<100:
     sns.heatmap(pl, annot=True,fmt= "d")
     z+=1
     s+=1
-    png="Machine Learning\\Run Outputs\Plots\\" + runout + str(s) + ".png"
+    png="Machine Learning/Run Outputs/Plots/" + runout + str(s) + ".png"
     plt.savefig(png, dpi=1000)
     plt.show()
     
