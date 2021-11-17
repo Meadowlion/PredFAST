@@ -24,9 +24,9 @@ runout=csv0
 csv1="Databases/" + runout
 proteindata = pd.read_csv(csv1, header=0)
 print("The machine will now begin!")
-X_test=proteindata[["A","R","N","D","C","Q","E","G","H","I","L","K","M","F","P","S","T","W","Y","V","Amino Acids","Daltons","Hydrophobicity","Polarity","Flex","pI","Refractivity","Bulk","Alpha Helix","Beta Sheet","Coil","Buried","Hetero Ratio","Crystal Density","IDP","Average Disorder","Prosite","PFAM"]]
+X_test=proteindata[["A","R","N","D","C","Q","E","G","H","I","L","K","M","F","P","S","T","W","Y","V","Amino Acids","Daltons","Hydrophobicity","Polarity","Flex","pI","Refractivity","Bulk","Alpha Helix","Beta Sheet","Coil","Buried","Hetero Ratio","Crystal Density","Prosite","PFAM"]]
 
-    #"A","R","N","D","C","Q","E","G","H","I","L","K","M","F","P","S","T","W","Y","V","Amino Acids","Daltons","Hydrophobicity","Polarity","Flex","pI","Refractivity","Bulk","Alpha Helix","Beta Sheet","Coil","Buried","Hetero Ratio","Crystal Density","IDP","Average Disorder","Prosite","PFAM"
+    #"A","R","N","D","C","Q","E","G","H","I","L","K","M","F","P","S","T","W","Y","V","Amino Acids","Daltons","Hydrophobicity","Polarity","Flex","pI","Refractivity","Bulk","Alpha Helix","Beta Sheet","Coil","Buried","Hetero Ratio","Crystal Density","Prosite","PFAM"
 y_test=proteindata["Class"]
 loaded_model = pickle.load(open("Machine Learning/Model/" + csv2, "rb"))
 result = loaded_model.predict(X_test)
