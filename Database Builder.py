@@ -22,22 +22,10 @@ import os
 global g 
 global Qtxt
 g=0
-#os.chdir('/home/sb069/anaconda3/lib/python3.8/site-packages/isoelectric/')
-#name = "ipc"
-#from ipc import *
-
-#need to do __init__.py function manually and os.chdir manually and revert
-
-#string1 = "python " + "ipc.py "
-#os.system(string1 + " >/dev/null 2&1")
 
 
-os.chdir("Documents/LM_ML")
-#print(os.getcwd())
-#need to initialize isoelectric first on boot for this to work do this by running init found in  anaconda3\Lib\site-packages\isoelectric.
 
 from isol import *
-#RUN Line.py if not run before on the data
 
 #for iupred2a
 PATH="Resources Used/iupred2a"
