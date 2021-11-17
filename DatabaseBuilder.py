@@ -148,26 +148,9 @@ def PrositeScan():
     with open(psscan, 'w') as prositeoutfile:
         prositeoutfile.write(prositedata)
     prositeoutfile.close()
-    #print("Export PATH", exportpath)
-    #PSSTRING=exportpath +' ; ' + psstr1
-    #print("THIS IS PSSTRING", PSSTRING)
-    #PSPATH2=PSpath+":"
-    #os.putenv("PATH", PSPATH2 +
-    #os.getenv("PATH")
-    #my_env=os.environ.copy()
-    #my_env["PATH"] = PSPATH2 + my_env["PATH"]
-    #print(my_env["PATH"])
-    #subprocess.call(["perl", psscan, PSin],env=my_env)
+    
     subprocess.call(psstr1, shell= True)
-    #os.system(psstr1)
-    #os.system(exportpath +' ; ' + psstr1)
-    #termout.close()          
-    #env={"PATH":PSpath,"2PATH":"/usr/bin/env perl"})
-    #subprocess.call(psstr1,shell=True,env=myenv)
-    #subprocess.call(["perl", "Resources Used/PS_Scan/ps_scan_Linux/ps_scan.pl", Qtxt, "-o", "fasta", ">" , prositetxt])#,
-                    #env={"PATH":PSpath,"2PATH":"/usr/bin/env perl"}) #This seems to correctly change path but perl is not found? Perhaps need to set two PATHs?
-    #print(proscanstr)
-    #subprocess.call(psstr1,shell=True) 
+   
     print("Prosite Scan has finished please wait for the dataset to be fully built")
     
     count()
