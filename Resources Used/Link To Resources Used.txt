@@ -3,3 +3,4 @@ https://pypi.org/project/isoelectric/
 hmmscan
 https://prosite.expasy.org/scanprosite
 /http://dis.embl.de/
+https://iupred2a.elte.hu/
