@@ -93,10 +93,10 @@ def Question():
     if Prositeq =="n" and HMMscanq == "n":
         count()
     elif Prositeq == "n" and HMMscanq=="Y":
-        print("Remember to have the Prosite file in FASTA and in 'LM_ML/Machine Learning/Prosite' with the same name as the input file")
+        print("Remember to have the Prosite file in FASTA and in 'PredFast/Machine Learning/Prosite' with the same name as the input file")
         HMMERSCAN()
     elif Prositeq== "Y"  and HMMscanq=="n":
-        print("Remember to have the Pfam file in FASTA and in 'LM_ML/Machine Learning/Pfam' with the same name as the input file")
+        print("Remember to have the Pfam file in FASTA and in 'PredFast/Machine Learning/Pfam' with the same name as the input file")
         PrositeScan()
     elif Prositeq=="Y" and HMMscanq=="Y":
         HMMERSCAN()
@@ -134,7 +134,6 @@ def PrositeScan():
     prositein= "'" + "Machine Learning/Prosite/" + txt + "'" 
     psstr1="perl 'Resources Used/PS_Scan/ps_scan_Linux/ps_scan.pl' " + hmmin + " -o fasta > " + prositein
     psscan='Resources Used/PS_Scan/ps_scan_Linux/ps_scan.pl'
-    # THE LINE MUST LOOK EXACTLY LIKE THIS IN ps_scan.pl line 690 my $PFSCAN  = "'/home/sb069/Documents/LM_ML/Resources Used/PS_Scan/ps_scan_Linux/pfscan'";
     exportpath= "'" + Fullpath + "/Resources Used/PS_Scan/ps_scan_Linux/pfscan'"
     exportpath='"'+exportpath+'"'
     exportpath="my $PFSCAN  =" + exportpath + ";"
