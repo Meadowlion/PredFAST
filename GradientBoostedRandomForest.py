@@ -32,7 +32,7 @@ while z<100:
     acc=0.0
     mac=0.0
     proteindata = pd.read_csv(csv1, header=0)
-    X=proteindata[["A","R","N","D","C","Q","E","G","H","I","L","K","M","F","P","S","T","W","Y","V","Amino Acids","Daltons","Hydrophobicity","Polarity","Flex","pI","Refractivity","Bulk","Alpha Helix","Beta Sheet","Coil","Buried","Hetero Ratio","Crystal Density","IDP","Average Disorder","Prosite","PFAM"]]
+    X=proteindata[["A","R","N","D","C","Q","E","G","H","I","L","K","M","F","P","S","T","W","Y","V","Amino Acids","Daltons","Hydrophobicity","Polarity","Flex","pI","Refractivity","Bulk","Alpha Helix","Beta Sheet","Coil","Buried","Hetero Ratio","Crystal Density","Prosite","PFAM"]]
 
     #"A","R","N","D","C","Q","E","G","H","I","L","K","M","F","P","S","T","W","Y","V","Amino Acids","Daltons","Hydrophobicity","Polarity","Flex","pI","Refractivity","Bulk","Alpha Helix","Beta Sheet","Coil","Buried","Hetero Ratio","Crystal Density","IDP","Average Disorder","Prosite","PFAM"
     y=proteindata["Class"]
