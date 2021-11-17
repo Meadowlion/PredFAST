@@ -18,7 +18,6 @@ import pickle
 from sklearn import model_selection
 import os
 
-os.chdir("/Research Simple/Research")
 csv0=input("What is the name of the test file?: ")
 csv2=input("What model do you want to use?: ")
 runout=csv0 
