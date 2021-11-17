@@ -30,7 +30,7 @@ proteinfinal="".join(proteinlist)
 
 
 # Make a new file
-Out1 = open("Input Files//" + Out + ".txt", "w+")
+Out1 = open("Input Files/" + Out + ".txt", "w+")
 #write to file 
 Out1.write(proteinfinal)
 #close file
